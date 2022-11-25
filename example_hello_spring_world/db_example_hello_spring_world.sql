@@ -1,17 +1,3 @@
--- --------------------------------------------------------
--- 호스트:                          127.0.0.1
--- 서버 버전:                        10.3.28-MariaDB - mariadb.org binary distribution
--- 서버 OS:                        Win64
--- HeidiSQL 버전:                  11.0.0.5919
--- --------------------------------------------------------
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8 */;
-/*!50503 SET NAMES utf8mb4 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
-
-
 -- example 데이터베이스 구조 내보내기
 CREATE DATABASE IF NOT EXISTS `example` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci */;
 USE `example`;
