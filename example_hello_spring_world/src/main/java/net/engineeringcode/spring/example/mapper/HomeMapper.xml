@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 다른 mapper와 중복되지 않도록 네임스페이스 기재 -->
+<mapper namespace="net.engineeringcode.spring.example.dao.HomeDao">
+	<select id="getData" parameterType="java.util.HashMap" resultType="java.util.HashMap">
+		SELECT my_data_srl, my_data_value, registration_date FROM my_data
+	</select>
+ 
+	<insert id="addData" parameterType="java.util.HashMap">
+		INSERT INTO my_data (my_data_value, registration_date) VALUES (#{MY_DATA_VALUE}, SYSDATE())
+	</insert>
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
